@@ -2,7 +2,7 @@
   "name": "app-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "https://frontend-trainee.github.io/react-app-child",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -21,7 +21,9 @@
   "scripts": {
     "start": "rescripts start",
     "build": "rescripts build",
-    "test": "rescripts test"
+    "test": "rescripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@rescripts/cli": "^0.0.16"
+    "@rescripts/cli": "^0.0.16",
+    "gh-pages": "^3.2.3"
   }
 }
