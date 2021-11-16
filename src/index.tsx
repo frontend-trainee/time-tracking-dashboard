@@ -12,7 +12,11 @@ function render(props: any) {
   ReactDOM.render(
     <React.StrictMode>
       <Router
-        basename={(window as any).__POWERED_BY_QIANKUN__ ? '/app-react' : '/'}
+        basename={
+          (window as any).__POWERED_BY_QIANKUN__
+            ? process.env.REACT_APP_MICRO_ROUTER
+            : '/'
+        }
       >
         <App />
       </Router>
