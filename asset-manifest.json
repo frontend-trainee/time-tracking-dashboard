@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/static/js/main.e907a3b5.chunk.js",
-    "main.js.map": "/static/js/main.e907a3b5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.177d3834.js",
-    "runtime-main.js.map": "/static/js/runtime-main.177d3834.js.map",
-    "static/js/2.692f47bb.chunk.js": "/static/js/2.692f47bb.chunk.js",
-    "static/js/2.692f47bb.chunk.js.map": "/static/js/2.692f47bb.chunk.js.map",
-    "static/js/3.37e0ee7f.chunk.js": "/static/js/3.37e0ee7f.chunk.js",
-    "static/js/3.37e0ee7f.chunk.js.map": "/static/js/3.37e0ee7f.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.692f47bb.chunk.js.LICENSE.txt": "/static/js/2.692f47bb.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/micro-app-react/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/micro-app-react/static/js/main.e907a3b5.chunk.js",
+    "main.js.map": "/micro-app-react/static/js/main.e907a3b5.chunk.js.map",
+    "runtime-main.js": "/micro-app-react/static/js/runtime-main.4ff42aef.js",
+    "runtime-main.js.map": "/micro-app-react/static/js/runtime-main.4ff42aef.js.map",
+    "static/js/2.692f47bb.chunk.js": "/micro-app-react/static/js/2.692f47bb.chunk.js",
+    "static/js/2.692f47bb.chunk.js.map": "/micro-app-react/static/js/2.692f47bb.chunk.js.map",
+    "static/js/3.37e0ee7f.chunk.js": "/micro-app-react/static/js/3.37e0ee7f.chunk.js",
+    "static/js/3.37e0ee7f.chunk.js.map": "/micro-app-react/static/js/3.37e0ee7f.chunk.js.map",
+    "index.html": "/micro-app-react/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/micro-app-react/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.692f47bb.chunk.js.LICENSE.txt": "/micro-app-react/static/js/2.692f47bb.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/micro-app-react/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.177d3834.js",
+    "static/js/runtime-main.4ff42aef.js",
     "static/js/2.692f47bb.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.e907a3b5.chunk.js"
