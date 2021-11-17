@@ -1,0 +1,62 @@
+@import "../../base.scss";
+
+.type-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: $dark-blue;
+  height: 100%;
+  @extend .radius;
+
+  position: relative;
+  bottom: -1px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(45, 50, 116);
+  }
+}
+
+.type-title {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.title-more {
+  font-size: 26px;
+  line-height: 9px;
+  color: $pale-blue;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.type-time-desc {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.time-current {
+  font-size: 36px;
+  color: #fff;
+  min-width: 90px;
+}
+
+.time-previous {
+  font-size: 12px;
+  @media only screen and (max-width: 750px) {
+    & {
+      line-height: 36px;
+    }
+  }
+  padding: 5px 0;
+  color: $pale-blue;
+}

@@ -1,11 +1,11 @@
-import './public-path';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import "./public-path";
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.scss";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-import { HashRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from "react-router-dom";
 
 function render(props: any) {
   const { container } = props;
@@ -15,15 +15,15 @@ function render(props: any) {
         basename={
           (window as any).__POWERED_BY_QIANKUN__
             ? process.env.REACT_APP_MICRO_ROUTER
-            : '/'
+            : "/"
         }
       >
         <App />
       </Router>
     </React.StrictMode>,
     container
-      ? container.querySelector('#root')
-      : document.querySelector('#root')
+      ? container.querySelector("#root")
+      : document.querySelector("#root")
   );
 }
 
@@ -32,11 +32,11 @@ if (!(window as any).__POWERED_BY_QIANKUN__) {
 }
 
 export async function bootstrap() {
-  console.log('[react16] react app bootstraped');
+  console.log("[react16] react app bootstraped");
 }
 
 export async function mount(props: any) {
-  console.log('[react16] props from main framework', props);
+  console.log("[react16] props from main framework", props);
   render(props);
 }
 
@@ -44,8 +44,8 @@ export async function unmount(props: any) {
   const { container } = props;
   ReactDOM.unmountComponentAtNode(
     container
-      ? container.querySelector('#root')
-      : document.querySelector('#root')
+      ? container.querySelector("#root")
+      : document.querySelector("#root")
   );
 }
 
