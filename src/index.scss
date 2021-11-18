@@ -1,20 +1,19 @@
 @import './base.scss';
 
 @font-face {
-	font-family: 'Rubik';
-	src: url('./assets/fonts/Rubik-Light.ttf');
-	font-weight: 300;
+  font-family: 'Rubik';
+  src: url('./assets/fonts/Rubik-Light.ttf');
+  font-weight: 300;
 }
 
 @font-face {
-	font-family: 'Rubik';
-	src: url('./assets/fonts/Rubik-Regular.ttf');
-	font-weight: 400;
+  font-family: 'Rubik';
+  src: url('./assets/fonts/Rubik-Regular.ttf');
+  font-weight: 400;
 }
 
 body {
-	margin: 0;
-	font-family: 'Rubik', 'Helvetica Neue', sans-serif;
-	background-color: $veryDark-blue;
-	font-weight: 300;
+  margin: 0;
+  font-family: 'Rubik', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
 }
